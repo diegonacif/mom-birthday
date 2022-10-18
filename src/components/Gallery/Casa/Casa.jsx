@@ -1,17 +1,17 @@
-import familia1 from '../../../assets/familia/familia1.jpg';
-import familia2 from '../../../assets/familia/familia2.jpg';
-import familia3 from '../../../assets/familia/familia3.jpg';
-import familia4 from '../../../assets/familia/familia4.jpg';
+import casa1 from '../../../assets/casa/casa1.jpg';
+import casa2 from '../../../assets/casa/casa2.jpg';
+import casa3 from '../../../assets/casa/casa3.jpg';
+import casa4 from '../../../assets/casa/casa4.jpg';
 
 export const Casa = () => {
   return (
     <div className="gallery">
       <h1>Casa</h1>
       <div className="gallery-grid">
-        <img src={familia1} />
-        <img src={familia2} />
-        <img src={familia3} />
-        <img src={familia4} />
+        <img src={casa1} />
+        <img src={casa2} />
+        <img src={casa3} />
+        <img src={casa4} />
       </div>
     </div>
   )

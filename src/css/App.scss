@@ -17,6 +17,7 @@ html {
   min-height: 100vh;
 }
 
+@import '../components/Start/Start';
 @import '../components/Header/Header';
 @import '../components/Menu/Menu';
 @import '../components/Gallery/Gallery';

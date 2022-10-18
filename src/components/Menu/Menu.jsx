@@ -5,7 +5,6 @@ export const Menu = () => {
     <div className="menu">
       <ul>
         <Link to="casa">Casa</Link>
-        <Link to="construcao">Construção</Link>
         <Link to="familia">Família</Link>
         <Link to="castiel">Castiel</Link>
         <Link to="praia">Praia</Link>

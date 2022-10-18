@@ -8,6 +8,7 @@
   h1 {
     color: $white;
     text-align: center;
+    text-shadow: 4px 4px 10px $primary-color;
   }
 
   .gallery-grid {
@@ -19,11 +20,11 @@
     padding: 0.5rem;
     margin-top: 3rem;
     border-radius: 3.5rem 3.5rem 1rem 1rem;
-    border: 3px groove var(--black-border);
+    // border: 3px groove var(--black-border);
 
     img {
       width: 100%;
-      border: 1px groove var(--white-border,);
+      border: 2px groove $white;
       border-radius: 3.5rem 3.5rem 1rem 1rem;
     }
   }

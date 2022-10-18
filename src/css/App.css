@@ -13,6 +13,22 @@ html {
   min-height: 100vh;
 }
 
+.start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-family: "Montserrat", sans-serif;
+}
+.start img {
+  max-width: 90%;
+  margin-top: 2rem;
+}
+
 .header {
   position: relative;
   display: flex;
@@ -52,7 +68,7 @@ html {
   align-items: center;
   justify-content: center;
   width: 9rem;
-  height: 16rem;
+  height: 13rem;
   border-radius: 12px;
   background-color: rgba(3, 88, 181, 0.875);
   transition: all 0.3s;
@@ -81,6 +97,7 @@ html {
 .gallery h1 {
   color: #cbecff;
   text-align: center;
+  text-shadow: 4px 4px 10px #0358b5;
 }
 .gallery .gallery-grid {
   display: flex;
@@ -90,10 +107,9 @@ html {
   padding: 0.5rem;
   margin-top: 3rem;
   border-radius: 3.5rem 3.5rem 1rem 1rem;
-  border: 3px groove var(--black-border);
 }
 .gallery .gallery-grid img {
   width: 100%;
-  border: 1px groove var(--white-border, );
+  border: 2px groove #cbecff;
   border-radius: 3.5rem 3.5rem 1rem 1rem;
 }/*# sourceMappingURL=App.css.map */

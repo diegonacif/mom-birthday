@@ -1,0 +1,22 @@
+
+$primary-color: #0358b5;
+$white: #cbecff;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url("../assets/beach-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+@import '../components/Header/Header';
+@import '../components/Menu/Menu';
+@import '../components/Gallery/Gallery';

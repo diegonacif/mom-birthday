@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url("../assets/beach-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  width: 100%;
+  height: 5.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+.header h1 {
+  font-family: "Tangerine", cursive;
+  font-size: 3.5rem;
+  color: #cbecff;
+  text-shadow: 4px 4px 12px #0358b5;
+}
+.header button {
+  background: none;
+  border: none;
+  color: #cbecff;
+  cursor: pointer;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+.header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.menu {
+  position: absolute;
+  top: 6.2rem;
+  right: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9rem;
+  height: 16rem;
+  border-radius: 12px;
+  background-color: rgba(3, 88, 181, 0.875);
+  transition: all 0.3s;
+}
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  color: #cbecff;
+  font-weight: bold;
+}
+.menu ul a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.1rem;
+  text-shadow: 4px 4px 12px #0358b5;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.gallery h1 {
+  color: #cbecff;
+  text-align: center;
+}
+.gallery .gallery-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: clamp(15rem, 95%, 35rem);
+  padding: 0.5rem;
+  margin-top: 3rem;
+  border-radius: 3.5rem 3.5rem 1rem 1rem;
+  border: 3px groove var(--black-border);
+}
+.gallery .gallery-grid img {
+  width: 100%;
+  border: 1px groove var(--white-border, );
+  border-radius: 3.5rem 3.5rem 1rem 1rem;
+}/*# sourceMappingURL=App.css.map */
